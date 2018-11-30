@@ -1,0 +1,29 @@
+.partialHash:hover  .fullHash{
+	display:block;
+	position:absolute!important;
+	padding:4px 4px;
+	background-color: #000000!important;
+	margin-left:-5px;
+	margin-top:-30px;
+	border-radius:8px;
+	color:#ffffff;
+	opacity:0.7
+}
+.partialHash{
+    text-align:center;
+    border: none;
+    background: none;
+}
+.fullHash{
+    display:none
+}
+.next-table th {
+	text-align: center;
+}
+.next-table-body {
+	text-align: center;
+}
+.pagination {
+	float: right;
+}
+button[disabled]{color:grey;opacity:1}

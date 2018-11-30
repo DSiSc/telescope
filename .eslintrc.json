@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "prefer-destructuring": [
+      "error",
+      {
+        "object": false,
+        "array": false
+      }
+    ]
+  }
+}

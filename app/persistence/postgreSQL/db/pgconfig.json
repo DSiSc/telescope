@@ -1,0 +1,9 @@
+{
+    "pg": {
+        "host": "postgresql",
+        "port": "5432",
+        "database": "telescope",
+        "username": "telescope",
+        "passwd": "password"
+    }
+}

@@ -1,0 +1,4 @@
+{
+	"persistence": "postgreSQL",
+	"platforms": ["justitia"]
+}

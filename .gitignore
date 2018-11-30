@@ -1,0 +1,15 @@
+#
+#    SPDX-License-Identifier: Apache-2.0
+#
+**/node_modules/
+.idea/
+.vscode
+
+build/
+test/
+
+logs/
+*.log
+nohup.out
+
+examples/*

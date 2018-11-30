@@ -1,0 +1,8 @@
+{
+	"transactions" : [
+		"chainname", "txid", "type" , "txhash", "block" ,"from", "to", "timestamp"
+	],
+	"transactiondetails" : [
+		"transactionid" , "chainname", "block" ,"from", "to" , "type", "time"
+	]
+}

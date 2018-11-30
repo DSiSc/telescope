@@ -1,0 +1,11 @@
+{
+	"blocks" : [
+		"blocknumber", "chainname", "number_of_tx",  "blockhash", "prehash","transactions"
+	],
+	"blockdetails" : [
+		"chainname", "id", "blocknumber", "createat", "number_of_transactions", "blockhash", "datahash", "prehash"
+	],
+	"transactiondetails" : [
+		"transactionid" , "chainname", "type", "block" ,"from", "to" , "time"
+	]
+}

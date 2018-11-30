@@ -1,0 +1,5 @@
+{
+	"contract" : [
+		"name", "balance", "txcount", "creator", "creator_hash", "operation"
+	]
+}

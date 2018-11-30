@@ -1,0 +1,22 @@
+export default {
+  'page.localeProvider.status': 'status',
+  'page.localeProvider.creator': 'Creator',
+  'page.localeProvider.txid': 'TX Id',
+  'page.localeProvider.type': 'Type',
+  'page.localeProvider.timestamp': 'Timestamp',
+  'page.localeProvider.contractname': 'Contract Name',
+  'page.localeProvider.txdetails': 'Transaction Details',
+  'page.localeProvider.transactionid': 'Transaction ID',
+  'page.localeProvider.valcode': 'Validation Code',
+  'page.localeProvider.payprohash': 'Payload Proposal Hash',
+  'page.localeProvider.creatormsp': 'Creator MSP',
+  'page.localeProvider.endoser': 'Endoser',
+  'page.localeProvider.time': 'Time',
+  'page.localeProvider.txhash': 'TX Hash',
+  'page.localeProvider.blockid': 'blockid',
+  'page.localeProvider.blocktime': 'blockTime',
+  'page.localeProvider.from': 'From',
+  'page.localeProvider.to': 'To',
+  'page.localeProvider.contract': 'Contract',
+  'page.localeProvider.chainname': 'Chain Name'
+}
