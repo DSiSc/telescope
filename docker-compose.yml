@@ -23,5 +23,5 @@ services:
       - POSTGRESQL_USER=telescope
       - POSTGRESQL_PASSWORD=password
     volumes:
-      - "/home/kang/.justitia/pg_data:/var/lib/pgsql/data"
+      - "../data:/var/lib/pgsql/data"
       - "./app/persistence/postgreSQL/db/:/opt/app-root/src"

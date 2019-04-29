@@ -35,8 +35,14 @@ function outside_initdb() {
 
 function outside_deploy() {
     docker-compose up -d postgresql
-    sleep 5s
-    outside_initdb
+    for x in {0..5}
+    do
+        sleep 5
+        outside_initdb
+        if [ $? -eq 0 ]; then
+            break
+        fi
+    done
     docker-compose up -d explorer
 }
 
