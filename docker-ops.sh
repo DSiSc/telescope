@@ -30,24 +30,25 @@ function outside_down() {
 }
 
 function outside_initdb() {
-    docker exec -it postgresql bash -c "psql -d telescope -a -f initdb.sql"
+    docker exec -i postgresql bash -c "psql -d telescope -a -f initdb.sql"
 }
 
 function outside_deploy() {
     docker-compose up -d postgresql
     for x in {0..5}
     do
-        sleep 5
+        sleep 2
         outside_initdb
         if [ $? -eq 0 ]; then
             break
         fi
+        echo "psql not ready, wait for another 2s."
     done
     docker-compose up -d explorer
 }
 
 function outside_cleardb() {
-    docker exec -it postgresql bash -c "psql -d telescope -a -f cleardb.sql"
+    docker exec -i postgresql bash -c "psql -d telescope -a -f cleardb.sql"
 }
 
 if [ "$1" == "deploy" ]; then
